@@ -154,7 +154,6 @@ export function useTimer(): UseTimerReturn {
     if (result) {
       const currentStepIndex = BEGINNER_BODYWEIGHT_PROGRAM.findIndex(step => step === result.step);
       if (currentStepIndex < BEGINNER_BODYWEIGHT_PROGRAM.length - 1) {
-        const nextStep = BEGINNER_BODYWEIGHT_PROGRAM[currentStepIndex + 1];
         const nextStepStartTime = BEGINNER_BODYWEIGHT_PROGRAM
           .slice(0, currentStepIndex + 1)
           .reduce((total, step) => total + step.duration, 0);
@@ -177,7 +176,6 @@ export function useTimer(): UseTimerReturn {
     if (result) {
       const currentStepIndex = BEGINNER_BODYWEIGHT_PROGRAM.findIndex(step => step === result.step);
       if (currentStepIndex > 0) {
-        const prevStep = BEGINNER_BODYWEIGHT_PROGRAM[currentStepIndex - 1];
         const prevStepStartTime = BEGINNER_BODYWEIGHT_PROGRAM
           .slice(0, currentStepIndex - 1)
           .reduce((total, step) => total + step.duration, 0);

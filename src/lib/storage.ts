@@ -40,7 +40,7 @@ export class StorageAPI {
       const data = localStorage.getItem(STORAGE_KEYS.WORKOUT_HISTORY);
       if (data) {
         const sessions = JSON.parse(data);
-        return sessions.map((session: any) => ({
+        return sessions.map((session: WorkoutSession) => ({
           ...session,
           startTime: new Date(session.startTime),
           endTime: new Date(session.endTime)

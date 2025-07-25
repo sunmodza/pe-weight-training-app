@@ -173,7 +173,7 @@ export default function WorkoutHistory({ userProfile, onBack }: WorkoutHistoryPr
             </div>
           ) : (
             <div className="divide-y divide-gray-100">
-              {workoutHistory.map((session, index) => (
+              {workoutHistory.map((session) => (
                 <div key={session.id} className="p-4">
                   <div className="flex justify-between items-start mb-2">
                     <div>

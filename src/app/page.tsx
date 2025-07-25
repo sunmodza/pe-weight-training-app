@@ -42,11 +42,6 @@ export default function Home() {
     setAppState('history');
   };
 
-  const handleBackFromHistory = () => {
-    // If coming from timer, go back to timer, otherwise go to summary
-    const previousState = appState === 'history' ? 'timer' : 'summary';
-    setAppState(previousState);
-  };
 
   const handleEditProfile = () => {
     setAppState('editProfile');
