@@ -1,0 +1,27 @@
+{
+  "name": "PE Weight - Beginner Bodyweight Workout Timer",
+  "short_name": "PE Weight",
+  "description": "60-minute beginner bodyweight workout timer with automatic progression",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "lang": "th",
+  "dir": "ltr"
+}
