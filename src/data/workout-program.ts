@@ -8,7 +8,7 @@ export const BEGINNER_BODYWEIGHT_EXERCISES: Exercise[] = [
     nameEn: "Slow Marching in Place",
     phase: "warmup",
     order: 1,
-    duration: 120, // 2 minutes
+    duration: 60, // 1 minutes
     instructions: "เริ่มช้าๆ ค่อยๆ เร่งความเร็ว หลัง 1 นาทีให้แกว่งแขน"
   },
   {
@@ -24,7 +24,7 @@ export const BEGINNER_BODYWEIGHT_EXERCISES: Exercise[] = [
     nameEn: "Leg Swings",
     phase: "warmup",
     order: 3,
-    duration: 120, // 2 minutes
+    duration: 60, // 1 minutes
     instructions: "จับผนัง/เก้าอี้ประคอง แกว่งไปข้างหน้า-หลัง 30 วินาที/ขา แกว่งข้างๆ 30 วินาที/ขา"
   },
   {
@@ -40,7 +40,7 @@ export const BEGINNER_BODYWEIGHT_EXERCISES: Exercise[] = [
     nameEn: "Knee Raises",
     phase: "warmup",
     order: 5,
-    duration: 120, // 2 minutes
+    duration: 60, // 1 minute
     instructions: "สลับกันยกเข่าเข้าหาอก เริ่มช้าแล้วค่อยๆ เร่ง"
   },
   {
@@ -179,7 +179,7 @@ export const BEGINNER_BODYWEIGHT_PROGRAM: WorkoutStep[] = [
     nameEn: "Slow Marching in Place",
     phase: "warmup",
     exerciseOrder: 1,
-    duration: 120,
+    duration: 60,
     instructions: "เริ่มช้าๆ ค่อยๆ เร่งความเร็ว หลัง 1 นาทีให้แกว่งแขน"
   },
   {
@@ -199,7 +199,7 @@ export const BEGINNER_BODYWEIGHT_PROGRAM: WorkoutStep[] = [
     nameEn: "Leg Swings",
     phase: "warmup",
     exerciseOrder: 3,
-    duration: 120,
+    duration: 60,
     instructions: "จับผนัง/เก้าอี้ประคอง แกว่งไปข้างหน้า-หลัง 30 วินาที/ขา แกว่งข้างๆ 30 วินาที/ขา"
   },
   {
@@ -219,7 +219,7 @@ export const BEGINNER_BODYWEIGHT_PROGRAM: WorkoutStep[] = [
     nameEn: "Knee Raises",
     phase: "warmup",
     exerciseOrder: 5,
-    duration: 120,
+    duration: 60,
     instructions: "สลับกันยกเข่าเข้าหาอก เริ่มช้าแล้วค่อยๆ เร่ง"
   },
   {
@@ -229,7 +229,7 @@ export const BEGINNER_BODYWEIGHT_PROGRAM: WorkoutStep[] = [
     nameEn: "Bodyweight Squats",
     phase: "warmup",
     exerciseOrder: 6,
-    duration: 120,
+    duration: 60,
     instructions: "เคลื่อนไหวช้ามาก เน้นท่าทาง ไม่ใช่ความลึก"
   },
 
